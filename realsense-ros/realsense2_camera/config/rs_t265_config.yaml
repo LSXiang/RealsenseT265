@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+camera_name: 'camera'
+camera_namespace: ''
+device_type: 't265'
+#serial_no: '043422251564'
+usb_port_id: ''
+
+tracking_module:
+  profile: '848x800x30'
+#tracking_qos: "SENSOR_DATA"
+#tracking_info_qos: "SENSOR_DATA"
+
+unite_imu_method: 2
+
+gyro_fps: 200
+accel_fps: 62
+
+enable_gyro: true
+enable_accel: true
+enable_pose: true
+enable_fisheye1: true
+enable_fisheye2: true
+
+pose_fps: 200
+
+enable_sync: true
+
+publish_tf: false
