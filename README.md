@@ -57,5 +57,10 @@ ros2 launch realsense2_camera rs_launch.py
 ros2 launch realsense2_camera rs_launch.py enable_pose:=true device_type:=t265
 ```
 
+### Start the T265 with a launch and configuration file (recommend)
+```bash
+ros2 launch realsense2_camera rs_t265_launch.py
+```
+
 ## See [librealsense/readme](./librealsense/readme.md) & [realsense-ros/readme](./realsense-ros/README.md) for more details
 
